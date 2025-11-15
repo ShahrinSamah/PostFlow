@@ -21,7 +21,7 @@ ob_start();
 <h2>Welcome, <?php echo  htmlspecialchars($user['name']) ?></h2>
 <p>Your email: <?= htmlspecialchars($user['email']) ?></p>
 
-<!-- ADD THIS NAVIGATION SECTION -->
+
 <div style="margin: 20px 0; display: flex; gap: 12px;">
     <a href="/posts" style="padding: 10px 20px; background: #2563eb; color: white; text-decoration: none; border-radius: 6px;">
         📝 View Posts

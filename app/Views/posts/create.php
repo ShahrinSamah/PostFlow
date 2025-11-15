@@ -1,6 +1,6 @@
 <?php
 use App\Core\Session;
-$title = 'Create Post | AuthBoard';
+$title = 'Create Post | PostFlow';
 ob_start();
 ?>
 

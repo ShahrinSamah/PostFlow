@@ -2,13 +2,13 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title><?= $title ?? 'AuthBoard ' ?></title>
+    <title><?= $title ?? 'PostFlow ' ?></title>
     <link rel="stylesheet" href="/assets/style.css">
 </head>
 <body>
 <div class="container">
     <header>
-        <h1>AuthBoard</h1>
+        <h1>PostFlow</h1>
         <?php if (!empty($_SESSION['user'])): ?>
             <nav>
                 <a href="/dashboard">Dashboard</a>
@@ -24,7 +24,7 @@
     </main>
 
     <footer>
-        <small>AuthBoard - teaching project</small>
+        <small>PostFlow-Connect.Share.Post</small>
     </footer>
 </div>
 </body>
