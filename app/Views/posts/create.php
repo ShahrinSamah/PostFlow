@@ -35,7 +35,7 @@ ob_start();
         <button type="submit" style="padding: 10px 20px; background: #2563eb; color: white; border: none; border-radius: 6px; cursor: pointer;">
             Create Post
         </button>
-        <a href="/posts" style="padding: 10px 20px; background: #6b7280; color: white; text-decoration: none; border-radius: 6px; display: inline-flex; align-items: center;">
+        <a href="/posts" style="padding: 10px 20px; background: #ef4444; color: white; text-decoration: none; border-radius: 6px; display: inline-flex; align-items: center;">
             Cancel
         </a>
     </div>
